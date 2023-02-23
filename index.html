@@ -7,6 +7,14 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700&family=Oranienbaum&display=swap" rel="stylesheet">
 </head>
+<script>
+    function doSomething() {
+        var email = document.getElementById("email")
+        if (email.value != "") {
+            document.getElementById("chameleon").style.color = "#426641";
+        }
+    }
+</script>
 
 <body>
     <div class="container small">
@@ -18,7 +26,7 @@
     </div>
     <div class="container big">
         <div class="section" id="about">
-            <h1>Elizabeth Wu </h1><h2>studies Cognitive & Computer Science @ UC Berkeley!</h2><br><br><h2>Prev. Design @ Tencent & Blueprint, Tech for Nonprofits</h2>
+            <h1>Elizabeth Wu </h1><h2>studies Cognitive & Computer Science @ UC Berkeley!</h2><br><br><h2>Previously Design @ Tencent & Blueprint, Tech for Nonprofits.</h2> <br><br> <h2>She loves hosting elaborate dinner parties, playing in nature, and <a href="https://open.spotify.com/user/enchantinghaze?si=b92f00a7f39e4d80" class="uncolor" target="_blank">curating playlists.</a></h2>
 
         </div>
         <div class="section" id="work">
@@ -37,8 +45,16 @@
             </div>
         </div>
         <div class="section" id="contact">
-            <h2>Contact ~ </h2><h3>get in touch? </h3>
-
+            <h2 id="chameleon">Contact ~ </h2><h3>get in touch? </h3>
+            <form onclick="doSomething();">
+                <label for="email">your email:</label>
+                <input type="text" id="email">
+                <br>
+                <label for="message">your message:</label>
+                <input type="text" id="message">
+                <br>
+                <button type="submit" value="Submit">submit</button>
+            </form>
         </div>
     </div>
 
