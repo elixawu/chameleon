@@ -32,6 +32,20 @@ h1 {
     display: inline;
 }
 
+.hide {
+    position: absolute;
+    top: 22%;
+    left: 45%;
+    width: 260px;
+    z-index: 1;
+    opacity: 0%;
+}
+
+.hide h1:hover {
+    display: block;
+    opacity: 100%;
+}
+
 h2 {font-size: 3.157rem;}
 h3 {font-size: 2.369rem;}
 
@@ -46,6 +60,7 @@ h2, h3 {
 h4, h5, h6 {
     font-family: 'Manrope', sans-serif;
     color:#482459;
+    
     margin: 0;
     padding: 0;
 }
@@ -67,11 +82,15 @@ h6 {
     color: #482459;
 }
 
+.uncolor:hover {
+    color: #FFAF82;
+}
 
 .link:hover {
     font-weight: 500;
     font-size: 1.777rem;
     cursor: pointer;
+    color: #FFAF82;
 }
 
 
@@ -100,9 +119,6 @@ h6 {
 
 .small {
     width: 20%;
-    /*justify-content: center;
-    align-items: center; */
-
 }
 
 .big {
@@ -145,6 +161,38 @@ h6 {
     padding: 24px 0;
 }
 
-.form {
-    padding-bottom: 72px;
+form {
+    padding: 36px 0px;
+}
+
+button, input, textarea {
+    background: #fffbf1;
+    border: 1px solid #FFAF82;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+button:hover, input:hover, textarea:hover {
+    background: #fff;
+}
+
+button, label, input, textarea {
+    font-family: 'Manrope', sans-serif;
+    color: #482459;
+
+    font-size: 1.333rem;
+    font-weight: 400;
+    line-height: 24px;
+    
+    margin-bottom: 24px;
+}
+
+input, textarea {
+    width: 250px;
+    margin-left: 36px;
+}
+
+input:focus, textarea:focus {
+    background: #ffffff;
+    border-radius: 6px;
 }
