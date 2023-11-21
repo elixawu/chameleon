@@ -1,7 +1,7 @@
 html {
     height: 100%;
     /*background: #426641;*/
-    background: #EEE5DF;
+    background: #362B3B; /*prev beige#EEE5DF;*/
     font-size: 12px;
 }
 
@@ -21,7 +21,7 @@ body {
 h1, h2, h3 {
     font-family: 'Oranienbaum', serif;
     font-weight: 400;
-    color: #482459;
+    color: #fffcf9; /*prev purple: #482459;*/
     margin-bottom: 24px;
 }
 
@@ -60,8 +60,7 @@ h2, h3 {
 
 h4, h5, h6 {
     font-family: 'Manrope', sans-serif;
-    color:#482459;
-    
+    color:#fffcf9; /*#482459;*/
     margin: 0;
     padding: 0;
 }
@@ -77,10 +76,10 @@ h6 {
 
 .link {
     text-decoration: none;
-    color: #482459;
+    color:#fffcf9; /* #482459; */
 }
 .uncolor {
-    color: #482459;
+    color:#fffcf9;  /*#482459; */
 }
 
 .uncolor:hover {
@@ -134,7 +133,7 @@ h6 {
 
 .section {
     margin-left: 10%;
-    margin-bottom: 30%;
+    margin-bottom: 40%;
     padding-top: 72px;
 }
 
@@ -177,12 +176,12 @@ button, input, textarea {
 }
 
 button:hover, input:hover, textarea:hover {
-    background: #fff;
+    background: #482459; /*#fff;*/
 }
 
 button, label, input, textarea {
     font-family: 'Manrope', sans-serif;
-    color: #482459;
+    color: #fffcf9;
 
     font-size: 1.333rem;
     font-weight: 400;
