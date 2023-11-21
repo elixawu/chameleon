@@ -32,6 +32,7 @@ h1 {
     display: inline;
 }
 
+
 .hide {
     position: absolute;
     top: 22%;
@@ -47,8 +48,12 @@ h1:hover .hide {
     visibility: visible;
 }
 
+h1:hover, .hide {
+    color:#FFAF82;
+}
+
 h2 {font-size: 3.157rem;}
-h3 {font-size: 2.369rem;}
+h3 {font-size: 1.777rem; color: #C7BCB6;}
 
 h2, h3 { 
     width: 50%;
@@ -79,7 +84,7 @@ h6 {
     color:#fffcf9; /* #482459; */
 }
 .uncolor {
-    color:#fffcf9;  /*#482459; */
+    color:#C7BCB6;  /*#482459; */
 }
 
 .uncolor:hover {
@@ -142,21 +147,18 @@ h6 {
     width: 100%;
     grid-template-columns: auto auto;
     padding: 36px 0px;
+    column-gap: 36px;
+    row-gap: 48px;
 }
 
 .work-item {
     width: 100%;
 }
 
-.work-item + .work-item { 
-    /*to put padding in between elements*/
-    padding-left: 24px;
-}
-
-.work-title {
-    /*to align titles*/
+/*to align titles*/
+/*.work-title {
     height: 80px;
-}
+}*/
 
 
 .work-img {
