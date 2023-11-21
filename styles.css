@@ -160,6 +160,10 @@ h6 {
 
 }
 
+img {
+    width: 100%;
+}
+
 section {
     padding: 4rem 0 4rem 0;
    /* display: flex;
