@@ -6,9 +6,9 @@
     --hover-d: #ffaf82;
 
     --bg-l: #fffffa;
-    --head-l: #d70000;
+    --head-l: #DB3C3C;
     --body-l: #960d0d;
-    --border-l: #d70000;
+    --border-l: #DB3C3C;
     --hover-l: #6C886B;
 }
 
@@ -73,22 +73,19 @@ body {
     src: url("fonts/bianzhidai_noBG-Cube.woff") format("woff");
 } 
 
-h1, h2 {
-    /*font-family: 'Oranienbaum', serif;*/
+h1, h2, h3 {
     font-family: 'Bianzhidai-bg-base', serif;
     font-weight: 400;
-    text-align: justify;
     color: var(--head-l); /*prev purple: #482459;*/
     margin-bottom: 24px;
     line-height: 95%;
+    padding: 0;
+    opacity: 68%;
 }
-
 
 h1 {
     font-size: 4.209rem;
-    margin:0 0 24px 0; 
-    padding:0;
-    line-height: 95%;
+    text-align: justify;
 }
 
 .hide {
@@ -101,15 +98,6 @@ h1 {
     visibility: hidden;
 }
 
-/*h1:hover .hide {
-    display: block;
-    visibility: visible;
-}
-
-h1:hover, .hide {
-    color:#FFAF82;
-}*/
-
 .img-hover:hover .hide {
     display: block;
     visibility: visible;
@@ -121,12 +109,8 @@ h1:hover, .hide {
 
 h2 {font-size: 3.157rem;}
 h3 {
-    /*font-family: 'Oranienbaum', serif;*/
     font-family: 'Bianzhidai-cube', serif;
-    font-weight: 400;
     font-size: 2.369rem;
-    color: var(--head-l);
-    margin-bottom: 24px;
 }
 
 h2, h3 { 
