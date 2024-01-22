@@ -23,6 +23,54 @@
     margin-right: 42px;
 } */
 
+:root {
+    --one-d: #ffccf1;
+    --two-d: #e2ceeb;
+    --three-d: #ffaf82;
+    --four-d: #ffe485;
+    --five-d: #ceebdd;
+    --six-d: #96b3ff;
+    --seven-d: #ffccf1;
+    --eight-d: #afbaef;
+    --nine-d: #ceebdd;
+    --ten-d: #ffe485;
+    /*start in light mode*/
+    --one-l: #79BF95;
+    --two-l: #ffccf1;
+    --three-l: #FFA9DD;
+    --four-l: #ffa9dd;
+    --five-l: #FFC2C9;
+    --six-l:#79BF95;
+    --seven-l: #FFC2C9;
+    --eight-l: #D1EFE3;
+    --nine-l: #79BF95;
+    --ten-l:#EB71BA;
+}
+
+.dark-mode {
+    --one-l: #ffccf1;
+    --two-l: #e2ceeb;
+    --three-l: #ffaf82;
+    --four-l: #ffe485;
+    --five-l: #ceebdd;
+    --six-l: #96b3ff;
+    --seven-l: #ffccf1;
+    --eight-l: #afbaef;
+    --nine-l: #ceebdd;
+    --ten-l: #ffe485;
+    /*start in light mode*/
+    --one-d: #79BF95;
+    --two-d: #ffccf1;
+    --three-d: #FFA9DD;
+    --four-d: #ffa9dd;
+    --five-d: #FFC2C9;
+    --six-d: #79BF95;
+    --seven-d: #FFC2C9;
+    --eight-d: #D1EFE3;
+    --nine-d: #79BF95;
+    --ten-d: #EB71BA;
+
+}
 
 .circle {
     position: fixed; /*absolute makes it still scroll with the viewport window, fixed is totally fixed*/
@@ -57,7 +105,7 @@
 }
 
 .one {
-    background: #FFCCF1;
+    background: var(--one-l);
     width: 349px;
     height: 349px;
     left: -159px;
@@ -72,7 +120,7 @@
     left: -14px;
     top: -83px;
 
-    background: #E2CEEB;
+    background: var(--two-l);
     animation: fadeInOut 6s ease-in-out 1s infinite forwards;
 }
 
@@ -83,7 +131,7 @@
     left: 149px;
     top: -190px;
 
-    background: #FFAF82;
+    background: var(--three-l);
     animation: fadeInOut 6s ease-in-out 2s infinite forwards;
 }
 
@@ -93,7 +141,7 @@
     right: 60px;
     top: -180px;
 
-    background: #FFE485;
+    background: var(--four-l);
     animation: fadeInOut 6s ease-in-out 0s infinite forwards;
 }
 
@@ -103,7 +151,7 @@
     top: -107px;
     right: -140px;
     z-index: 1;
-    background: #CEEBDD;
+    background: var(--five-l);
     animation: fadeInOut 6s ease-in-out 1s infinite forwards;
 }
 
@@ -113,7 +161,7 @@
     right: -120px;
     top: 65px;
 
-    background: #96B3FF;
+    background: var(--six-l);
     animation: fadeInOut 6s ease-in-out 2s infinite forwards;
 }
 
@@ -123,7 +171,7 @@
     right: -250px;
     bottom: 100px;
 
-    background: #FFCCF1;
+    background: var(--seven-l);
     animation: fadeInOut 6s ease-in-out 0s infinite forwards;
 }
 
@@ -133,7 +181,7 @@
     right: -60px;
     bottom: -200px;
 
-    background: #AFBAEF;
+    background: var(--eight-l);
     animation: fadeInOut 6s ease-in-out 1s infinite forwards;
 }
 
@@ -143,7 +191,7 @@
     left: 120px;
     bottom: -100px;
 
-    background: #CEEBDD;
+    background: var(--nine-l);
     animation: fadeInOut 6s ease-in-out 2s infinite forwards;
 }
 
@@ -153,7 +201,7 @@
     left: -175px;
     bottom: -75px;
 
-    background: #FFE485;
+    background: var(--ten-l);
     animation: fadeInOut 6s ease-in-out 0s infinite forwards;
 }
 
