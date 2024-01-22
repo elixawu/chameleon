@@ -6,7 +6,7 @@
     --hover-d: #ffaf82;
 
     --bg-l: #fffffa;
-    --head-l: #DB3C3C;
+    --head-l: #d70000;
     --body-l: #960d0d;
     --border-l: #DB3C3C;
     --hover-l: #6C886B;
@@ -73,14 +73,13 @@ body {
     src: url("fonts/bianzhidai_noBG-Cube.woff") format("woff");
 } 
 
-h1, h2, h3 {
+h1, h2, h3, .heading-half {
     font-family: 'Bianzhidai-bg-base', serif;
     font-weight: 400;
     color: var(--head-l); /*prev purple: #482459;*/
     margin-bottom: 24px;
     line-height: 95%;
     padding: 0;
-    opacity: 68%;
 }
 
 h1 {
@@ -94,7 +93,6 @@ h1 {
     left: 45%;
     width: 260px;
     z-index: 1;
-    /*opacity: 0;*/
     visibility: hidden;
 }
 
@@ -103,8 +101,14 @@ h1 {
     visibility: visible;
 }
 
-.img-hover:hover, .hide {
+.img-hover:hover {
     color: var(--hover-l);
+}
+
+.heading-half {
+    font-size: 3.3rem;
+    opacity: 60%;
+    text-align: justify;
 }
 
 h2 {font-size: 3.157rem;}
