@@ -27,11 +27,20 @@ body {
     
 }
 
+
 @font-face {
     font-family: "Bianzhidai-bg-base";
     src: url("fonts/bianzhidai-Base.woff") format("woff");
 }
 
+@font-face {
+    font-family: "Bianzhidai-bg-cube";
+    src: url("fonts/bianzhidai-Cube.woff") format("woff");
+}
+@font-face {
+    font-family: "Bianzhidai-base";
+    src: url("fonts/bianzhidai_noBG-Base.woff") format("woff");
+}
 @font-face {
     font-family: "Bianzhidai-cube";
     src: url("fonts/bianzhidai_noBG-Cube.woff") format("woff");
@@ -45,6 +54,7 @@ h1, h2 {
     color: #fffcf9; /*prev purple: #482459;*/
     margin-bottom: 24px;
 }
+
 
 h1 {
     font-size: 4.209rem;
